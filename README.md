@@ -25,7 +25,7 @@ TaskTrek is a simple and intuitive task management application built with React.
 
 3. Start the application:
     ```bash
-    npm start
+    npm run dev
     ```
 
 The app will be available at `http://localhost:3000`.
@@ -36,34 +36,4 @@ The app will be available at `http://localhost:3000`.
 2. **Managing Tasks**: View your tasks organized into columns based on their status. Click on the tags to filter tasks.
 3. **Deleting a Task**: Click the delete icon next to a task to remove it from the list.
 
-## Components
 
-- **App**: The main component that holds the state and renders the other components.
-- **TaskForm**: A form to add new tasks.
-- **TaskColumn**: A column that displays tasks based on their status.
-- **TaskCard**: A card that displays an individual task.
-- **Tag**: A button component used to display and select tags.
-
-.
-├── public
-│ └── index.html
-├── src
-│ ├── assets
-│ │ ├── check-mark-button.png
-│ │ ├── delete.png
-│ │ ├── direct-hit.png
-│ │ └── glowing-star.png
-│ ├── components
-│ │ ├── TaskCard.jsx
-│ │ ├── TaskCard.css
-│ │ ├── TaskColumn.jsx
-│ │ ├── TaskColumn.css
-│ │ ├── TaskForm.jsx
-│ │ ├── TaskForm.css
-│ │ ├── Tag.jsx
-│ │ └── Tag.css
-│ ├── App.jsx
-│ ├── App.css
-│ ├── index.js
-│ └── index.css
-└── package.json
