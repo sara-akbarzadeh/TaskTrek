@@ -28,12 +28,5 @@ TaskTrek is a simple and intuitive task management application built with React.
     npm run dev
     ```
 
-The app will be available at `http://localhost:3000`.
-
-## Usage
-
-1. **Adding a Task**: Use the input field at the top to enter a new task. Select the status and tags before adding the task.
-2. **Managing Tasks**: View your tasks organized into columns based on their status. Click on the tags to filter tasks.
-3. **Deleting a Task**: Click the delete icon next to a task to remove it from the list.
-
+The app will be available at ` http://localhost:5173/`.
 
