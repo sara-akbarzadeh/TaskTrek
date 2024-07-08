@@ -1,0 +1,9 @@
+.task_column_iccon {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.task_column_heading {
+  display: flex;
+  align-items: center;
+}
